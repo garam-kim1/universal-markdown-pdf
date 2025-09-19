@@ -28,4 +28,4 @@ RUN apt-get update && \
 RUN npm install --global mermaid-filter pandoc-plantuml
 
 # Configure puppeteer for mermaid-filter
-RUN echo '{"args": ["--no-sandbox", "--disable-setuid-sandbox"]}' > /root/.puppeteer.json
+RUN echo '{"args": ["--no-sandbox", "--disable-setuid-sandbox"]}' > .puppeteer.json
